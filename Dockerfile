@@ -1,6 +1,6 @@
 FROM python:stretch
 
-# copy local files to container
+# copy local files to container 
 COPY . /app
 WORKDIR /app
 
